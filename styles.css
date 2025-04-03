@@ -1,11 +1,18 @@
 h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-text-align: center;
-color: rgb(0, 0, 0);
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);}
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8)
+}
 h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-text-align: center;
-color: rgb(0, 0, 0);
-text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);}
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8)
+}
+h4 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    text-align:left; font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8)
+}
 p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
 text-align: center;}
 p1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
@@ -51,4 +58,36 @@ justify-content: center;
 
 .contacto:hover {
     transform: scale(1.1);
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0); text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    font-weight:bolder;
+}
+
+a {
+    color: rgb(255, 251, 0);
+    text-decoration: none
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(228, 216, 52);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(255, 145, 0);
 }
