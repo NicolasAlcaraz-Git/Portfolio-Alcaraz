@@ -1,0 +1,54 @@
+h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+text-align: center;
+color: rgb(0, 0, 0);
+text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);}
+h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+text-align: center;
+color: rgb(0, 0, 0);
+text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);}
+p {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+text-align: center;}
+p1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+text-align: center;}
+
+
+.recuadro p {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+background-image: url(https://cdn.pixabay.com/photo/2022/05/17/14/26/minecraft-7202839_960_720.jpg);
+background-attachment:fixed;
+background-position:center;
+background-size:auto;
+}
+
+body{
+background-color: rgb(37, 207, 212);
+background-size: cover;
+}
+
+.img-01 {
+width: 200px;
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imagen_cv {
+display: flex;
+justify-content: center;
+}
+
+.contacto {
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    margin: 54px;
+}
+
+.contacto:hover {
+    transform: scale(1.1);
+}
